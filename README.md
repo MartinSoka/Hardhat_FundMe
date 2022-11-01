@@ -1,9 +1,12 @@
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This is a hardhat demo based on this awesome tutorial https://www.youtube.com/watch?v=gyMwXuJrbJQ from Patrick Collins
 
 Try running some of the following tasks:
 
 ```shell
 npx hardhat test
+npx hardhat run scripts/fundme.js
 ```
+
+or interact with test chains by adding the RPC URLs and PRIVATE_KEY into your .env file
