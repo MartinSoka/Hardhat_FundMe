@@ -2,11 +2,18 @@
 
 This is a hardhat demo based on this awesome tutorial https://www.youtube.com/watch?v=gyMwXuJrbJQ from Patrick Collins
 
-Try running some of the following tasks:
+Deploy on dev chain/test chain using following commands:
 
+```shell
+npx hardhat deploy
+npx hardhat deploy --network goerli
+npx hardhat deploy --network ganache
+```
+
+Test or interact with the deployed contracts: 
 ```shell
 npx hardhat test
 npx hardhat run scripts/fundme.js
 ```
 
-or interact with test chains by adding the RPC URLs and PRIVATE_KEY into your .env file
+Make sure to change the RPC URLs and PRIVATE_KEYs within your .env file
